@@ -37,9 +37,12 @@
   font-weight: 400;
 }
 
+.main-menu a {
+  color:#00285f50;
+}
+
 .main-menu a:hover {
   color:#00285f;
-  font-weight: normal;
 }
 
 .main-menu a.active {

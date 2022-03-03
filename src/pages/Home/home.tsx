@@ -22,7 +22,7 @@ const Home = () => {
         <ButtonHome />
         </Link>
         <div className="button-content-container">
-          <p>Start browsing now</p>
+          <p>Comece agora a navegar</p>
         </div>
       </div>
     </div>
