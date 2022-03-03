@@ -1,0 +1,48 @@
+.main-nav {
+  padding: 0px 20px 0px 20px;
+  min-height: 70px;
+  background-color: #f78b00;
+}
+
+
+.nav-logo-text:hover {
+  color: #00285f;
+}
+
+.nav-logo-text {
+  border: 0;
+}
+
+.navbar-toggler {
+  margin-top: 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0rem;
+}
+
+#topcars-navbar {
+  justify-content: center;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  width: 320px;
+}
+
+.main-menu li {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-menu a:hover {
+  color:#00285f;
+  font-weight: normal;
+}
+
+.main-menu a.active {
+  color:#00285f;
+  font-weight: bold;
+}

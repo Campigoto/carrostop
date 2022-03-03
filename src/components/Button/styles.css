@@ -1,0 +1,42 @@
+.btn-home {
+  height: 45px;
+  margin: 28px 60px 9px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-home span {
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 38px 12px 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn-card {
+  height: 40px;
+  margin: 0px 20px 15px 20px;
+  background-color: #00285f;
+  border-radius: 5px;
+}
+
+.btn-card span {
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .btn-home {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 16px 40px 85px;
+  }
+
+  .btn-home span {
+    text-align: center;
+  }
+}

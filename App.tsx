@@ -1,12 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Routs from 'Routes';
+import Routes from './Routes';
 
 
 const App = () => {
   return (
 
-    <Routs/>
+    <Routes/>
  
   );
 };
