@@ -24,10 +24,10 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="carrostop-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <NavLink to="/" activeClassName="active" exact >Home</NavLink>
+              <NavLink className={(navData) => navData.isActive ? "active" : ""} to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/products" activeClassName="active" exact >Catálogo</NavLink>
+              <NavLink className={(navData) => navData.isActive ? "active" : ""} to="/products">Catálogo</NavLink>
             </li>
           </ul>
         </div>
